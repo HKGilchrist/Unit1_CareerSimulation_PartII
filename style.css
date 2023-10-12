@@ -1,0 +1,148 @@
+.navbar {
+  background-color: #233c2f;
+  color: #f5f5f5; 
+  overflow: hidden; 
+  display: flex; 
+  justify-content: space-between; 
+  padding: 3px; 
+}
+
+#logo {
+  padding: 15px 20px; 
+  font-size: 24px; 
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar a {
+  float: left; 
+  color: #f5f5f5; 
+  text-align: left; 
+  padding: 15px 20px; 
+  font-size: 20px; 
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar a:hover {
+  background-color: #f5f5f5;
+  color: #233c2f;  
+  text-decoration: underline;
+}
+
+body {
+  background-color: #2c4c3b;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  min-height: 100vh;
+  display: flex; 
+  flex-direction: column;
+}
+ 
+.container {
+  background-color: #2c4c3b;
+  display: flex; 
+  justify-content: center;
+  padding-top: 30px; 
+}
+
+
+.abouttext {
+  color: #f5f5f5; 
+  align-self: center;
+  padding-left: 30px;
+  width: 500px;
+}
+
+
+.HG {
+  flex-grow: 1;
+  max-width: 30%; 
+  max-height: 15%; 
+  align-self: auto; 
+  box-shadow: 10px 10px 2px #6b8175;
+}
+
+footer {
+  padding: 30px; 
+  display: flex; 
+  justify-content: center;
+}
+
+#linkedinlogo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px; 
+}
+
+/*There has got to be a better way to add spacing to the footer.*/
+
+#githublogo {
+  width: 70px;
+  height: 40px;
+  margin-left: 10px; 
+}
+
+h2 {
+  color: #f5f5f5; 
+  text-align: center;
+  margin: 5px;
+}
+
+hr {
+  width: 90%;
+  text-align: center;
+  color: #f5f5f5;
+  border-style: dotted; 
+}
+
+.activities {
+  background-color: #233c2f;
+  color: #f5f5f5;
+  margin:10px; 
+  padding-bottom: 5px;
+  border: 2px dotted #f5f5f5;
+  display: grid;
+  grid-template-columns: 3fr auto;
+  padding: 20px;
+}
+
+.activity-text {
+  padding: 20px;
+  text-align: center;
+}
+
+.activitypicture {
+  border-radius: 15px 50px;
+}
+
+.projects {
+  background-color: #f5f5f5;
+  color: #233c2f;
+  margin:10px; 
+  padding-bottom: 5px;
+  border: 2px dotted #2c4c3b;
+  display: grid;
+  grid-template-columns: 3fr auto;
+  padding: 20px;
+}
+
+.projectpicture {
+  border-radius: 50%; 
+}
+
+.project-text {
+  padding: 20px;
+  text-align: center;
+}
+
+.portfolio-link:link {
+  color: #6b8175;
+}
+
+.portfolio-link:visited {
+  color: #95a59d;
+}
+
+.portfolio-link:hover {
+  color: #2c4c3b;
+}
