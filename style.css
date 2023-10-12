@@ -1,3 +1,10 @@
+/* Advanced CSS Selectors */
+@media (max-width: 600px){
+  .navbar {
+    background-color: #2c4c3b;
+  }
+}
+
 .navbar {
   background-color: #233c2f;
   color: #f5f5f5; 
@@ -157,25 +164,23 @@ hr {
 }
 
 .contact-form {
-  /* Advanced Rules: shorthand */
+  /* Advanced Rules: Shorthand */
   border: 2px dotted #233c2f;
   background-color: #95a59d;
   opacity: .5;
   padding: 20px;
   width: 550px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
 }
 
 input, textarea {
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: #233c2f;
   width: 100%;
+  margin: 2px;
 }
-
-button {
-  display: flex;
-  align-self: center !important;
-}
-
 
 #button {
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -187,7 +192,7 @@ button {
 
 #button:hover {
   background: rgb(107,129,117);
-  background: linear-gradient(90deg, rgba(107,129,117,1) 16%, rgba(44,76,59,1) 52%, rgba(107,129,117,0.9948573179271709) 88%);
+background: linear-gradient(90deg, rgba(107,129,117,1) 5%, rgba(44,76,59,1) 50%, rgba(107,129,117,0.9948573179271709) 95%);
 }
 
 h1 {
