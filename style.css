@@ -146,3 +146,70 @@ hr {
 .portfolio-link:hover {
   color: #2c4c3b;
 }
+
+#formspace {
+  /* Used for spacing:
+  border: 5px solid red;  */
+  display: flex;
+  justify-content: center;
+  height: 350px;
+  align-items: center;
+}
+
+.contact-form {
+  /* Advanced Rules: shorthand */
+  border: 2px dotted #233c2f;
+  background-color: #95a59d;
+  opacity: .5;
+  padding: 20px;
+  width: 550px;
+}
+
+input, textarea {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #233c2f;
+  width: 100%;
+}
+
+button {
+  display: flex;
+  align-self: center !important;
+}
+
+
+#button {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #233c2f;
+  color: #f5f5f5;
+  font-size: 15px;
+  margin: 15px;
+}
+
+#button:hover {
+  background: rgb(107,129,117);
+  background: linear-gradient(90deg, rgba(107,129,117,1) 16%, rgba(44,76,59,1) 52%, rgba(107,129,117,0.9948573179271709) 88%);
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+}
+
+.submit-message {
+  width: 500px;
+  height: 100px; 
+  background-color: #6b8175;
+  color: #f5f5f5;
+  text-align: center;
+  align-self: center;
+  margin-top: 30px;
+  padding: 20px;
+}
+
+/* #formspace {
+  border: 5px solid beige;
+  background-color: #95a59d;
+  display: flex;
+  flex-flow: column wrap; 
+  justify-content: center;
+} */
